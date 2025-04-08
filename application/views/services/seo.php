@@ -72,7 +72,7 @@
                     <aside class="">
                     <ul class="ps-0">
                             <li>
-                                <a href="<?php echo base_url(); ?>home/affiliate_marketing">Affiliate Marketing</a>
+                                <a href="<?php echo base_url(); ?>service/digital/affiliate">Affiliate Marketing</a>
                                 <!-- <i class="fas fa-angle-right"></i> -->
                             </li>
                             <li>

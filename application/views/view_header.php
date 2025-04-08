@@ -12,16 +12,6 @@ $success_message = '';
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <!-- - - - -->
-    <!-- Secondary Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-
-    
     <!-- - - - -->
     <!-- Favicon -->
     <link rel="icon" type="image/ico" sizes="32x32" href="<?php echo base_url(); ?>assets/images/logos/st_LOGO.ico">
@@ -37,7 +27,7 @@ $success_message = '';
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/responsive.css">
     <!-- - - - -->
-       <!-- Preload CSS and Fonts -->
+    <!-- Preload CSS and Fonts -->
     <link rel="preload" href="<?php echo base_url(); ?>assets/css/bootstrap.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="<?php echo base_url(); ?>assets/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="<?php echo base_url(); ?>assets/css/swiper.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -46,14 +36,24 @@ $success_message = '';
     <link rel="preload" href="<?php echo base_url(); ?>assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="<?php echo base_url(); ?>assets/css/responsive.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="<?php echo base_url(); ?>assets/images/home_slider/Website Design & Development.jpg" as="image">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- - - - -->
+    <!-- Secondary Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
 
-
-
-
-
-
+    
+    
+    
+    
+    
     <style>
-
+        
         /* Style for scrollable sub-menu */
 .scrollable-submenu {
     max-height: 240px; /* Adjust height as needed to show ~5 items */
@@ -294,185 +294,291 @@ $success_message = '';
     <script src="<?php echo base_url(); ?>public/js/toastr.min.js"></script>
 
     <style>
-        .header-area,
-        ul.nav-menu li ul li a,
-        .searchbar .input-search,
-        .text-animated li a,
-        .slider-one .owl-nav .owl-prev, 
-        .slider-one .owl-nav .owl-next,
-        .about-tab:before,
-        .progress-gallery .bar-container .progress .progress-bar-custom,
-        .choose-item:before,
-        .feature-icon i,
-        .feature-item:hover .feature-text,
-        .bg-counterup,
-        .portfolio-bg,
-        .faq-header button.faq-button,
-        .faq-header button.faq-button.collapsed:hover,
-        .booking-area:before,
-        .bg-booking,
-        .team-carousel .owl-nav .owl-prev, 
-        .team-carousel .owl-nav .owl-next,
-        .team-text,
-        .team-social li a:hover,
-        .price-header i,
-        .button-df a,
-        .bg-testimonial,
-        .testimonial-carousel .owl-dots .owl-dot,
-        .blog-carousel .owl-nav .owl-prev, 
-        .blog-carousel .owl-nav .owl-next,
-        .blog-author li.blog-button a,
-        .call-us:before,
-        .footer-item h3:before,
-        .footer-item h3:after,
-        .footer-item .btn,
-        .footer-item ul.footer-social li a,
-        .scroll-top,
-        .headstyle h4:before,
-        .headstyle h4:after,
-        .team-detail-text ul li a,
-        .sidebar-item h3:before,
-        .sidebar-item h3:after,
-        .event-contact-item,
-        .gallery-bg,
-        .testimonial-grid .testimonial-description p:before, 
-        .testimonial-two-carousel .testimonial-description p:before,
-        .form-button .btn,
-        .project-carousel .owl-nav .owl-prev, 
-        .project-carousel .owl-nav .owl-next,
-        .sidebar-item button,
-        .contact-item:hover .contact-icon,
-        .contact-form .btn,
-        span.input-group-btn {
-            background: #<?php echo $setting['front_end_color']; ?>!important;
-        }
+    /* Existing styles (unchanged) */
+    .header-area,
+    ul.nav-menu li ul li a,
+    .searchbar .input-search,
+    .text-animated li a,
+    .slider-one .owl-nav .owl-prev,
+    .slider-one .owl-nav .owl-next,
+    .about-tab:before,
+    .progress-gallery .bar-container .progress .progress-bar-custom,
+    .choose-item:before,
+    .feature-icon i,
+    .feature-item:hover .feature-text,
+    .bg-counterup,
+    .portfolio-bg,
+    .faq-header button.faq-button,
+    .faq-header button.faq-button.collapsed:hover,
+    .booking-area:before,
+    .bg-booking,
+    .team-carousel .owl-nav .owl-prev,
+    .team-carousel .owl-nav .owl-next,
+    .team-text,
+    .team-social li a:hover,
+    .price-header i,
+    .button-df a,
+    .bg-testimonial,
+    .testimonial-carousel .owl-dots .owl-dot,
+    .blog-carousel .owl-nav .owl-prev,
+    .blog-carousel .owl-nav .owl-next,
+    .blog-author li.blog-button a,
+    .call-us:before,
+    .footer-item h3:before,
+    .footer-item h3:after,
+    .footer-item .btn,
+    .footer-item ul.footer-social li a,
+    .scroll-top,
+    .headstyle h4:before,
+    .headstyle h4:after,
+    .team-detail-text ul li a,
+    .sidebar-item h3:before,
+    .sidebar-item h3:after,
+    .event-contact-item,
+    .gallery-bg,
+    .testimonial-grid .testimonial-description p:before,
+    .testimonial-two-carousel .testimonial-description p:before,
+    .form-button .btn,
+    .project-carousel .owl-nav .owl-prev,
+    .project-carousel .owl-nav .owl-next,
+    .sidebar-item button,
+    .contact-item:hover .contact-icon,
+    .contact-form .btn,
+    span.input-group-btn {
+        background: #<?php echo $setting['front_end_color']; ?>!important;
+    }
 
-        ul.nav-menu li:hover > a,
-        .searchbar .search-button:hover,
-        .text-animated li a:hover,
-        .text-animated li:last-child a:hover,
-        .slider-one .owl-nav .owl-prev:hover, 
-        .slider-one .owl-nav .owl-next:hover,
-        .feature-item:hover .feature-icon i,
-        .services-text a:hover,
-        .portfolio-menu li.filtr-active,
-        .portfolio-menu li:hover,
-        .portfolio-text h3 a:hover,
-        .form-button .btn2:hover,
-        .blog-item h3 a:hover,
-        .blog-item span i,
-        .blog-author li a i,
-        .blog-author li a:hover,
-        .call-us .button a:hover,
-        .footer-item ul li a:hover,
-        .team-info ul li span,
-        li.event-header-left i,
-        .recent-text a:hover,
-        .event-contact-item:hover .event-contact-icon,
-        .service-sidebar-item ul li a:hover,
-        .portfolio-details ul li span,
-        .sidebar-item ul li a:hover,
-        .blog-one-text h3 a:hover,
-        .blog-one-text ul li i,
-        .single-blog ul li i,
-        .contact-icon {
-            color: #<?php echo $setting['front_end_color']; ?>!important;   
-        }
+    ul.nav-menu li:hover > a,
+    .searchbar .search-button:hover,
+    .text-animated li a:hover,
+    .text-animated li:last-child a:hover,
+    .slider-one .owl-nav .owl-prev:hover,
+    .slider-one .owl-nav .owl-next:hover,
+    .feature-item:hover .feature-icon i,
+    .services-text a:hover,
+    .portfolio-menu li.filtr-active,
+    .portfolio-menu li:hover,
+    .portfolio-text h3 a:hover,
+    .form-button .btn2:hover,
+    .blog-item h3 a:hover,
+    .blog-item span i,
+    .blog-author li a i,
+    .blog-author li a:hover,
+    .call-us .button a:hover,
+    .footer-item ul li a:hover,
+    .team-info ul li span,
+    li.event-header-left i,
+    .recent-text a:hover,
+    .event-contact-item:hover .event-contact-icon,
+    .service-sidebar-item ul li a:hover,
+    .portfolio-details ul li span,
+    .sidebar-item ul li a:hover,
+    .blog-one-text h3 a:hover,
+    .blog-one-text ul li i,
+    .single-blog ul li i,
+    .contact-icon {
+        color: #<?php echo $setting['front_end_color']; ?>!important;
+    }
 
-        .text-animated li a,
-        .slider-one .owl-nav .owl-prev, 
-        .slider-one .owl-nav .owl-next,
-        .feature-icon i,
-        .feature-item:hover .feature-text,
-        .footer-item .form-control,
-        .footer-item .btn,
-        .footer-item ul.footer-social li a,
-        .event-contact-item:hover .event-contact-icon,
-        .form-control:focus,
-        .sidebar-item button,
-        .contact-item:hover .contact-icon,
-        .contact-form .btn {
-            border-color: #<?php echo $setting['front_end_color']; ?>!important;      
-        }
+    .text-animated li a,
+    .slider-one .owl-nav .owl-prev,
+    .slider-one .owl-nav .owl-next,
+    .feature-icon i,
+    .feature-item:hover .feature-text,
+    .footer-item .form-control,
+    .footer-item .btn,
+    .footer-item ul.footer-social li a,
+    .event-contact-item:hover .event-contact-icon,
+    .form-control:focus,
+    .sidebar-item button,
+    .contact-item:hover .contact-icon,
+    .contact-form .btn {
+        border-color: #<?php echo $setting['front_end_color']; ?>!important;
+    }
 
-        .video-button span {
-            border-left-color: #<?php echo $setting['front_end_color']; ?>!important;         
-        }
+    .video-button span {
+        border-left-color: #<?php echo $setting['front_end_color']; ?>!important;
+    }
 
-        .portfolio-menu li.filtr-active,
-        .team-social li a:hover {
-            border-bottom-color: #<?php echo $setting['front_end_color']; ?>!important;            
-        }
+    .portfolio-menu li.filtr-active,
+    .team-social li a:hover {
+        border-bottom-color: #<?php echo $setting['front_end_color']; ?>!important;
+    }
 
-        .portfolio-menu li.filtr-active:before,
-        .team-social li a:hover {
-            border-top-color: #<?php echo $setting['front_end_color']; ?>!important;               
-        }
+    .portfolio-menu li.filtr-active:before,
+    .team-social li a:hover {
+        border-top-color: #<?php echo $setting['front_end_color']; ?>!important;
+    }
 
-        ul.nav-menu li ul li:hover > a {
-            background: #f1f1f1!important;
-        }
-        .text-animated li a:hover,
-        .text-animated li:last-child a:hover,
-        .slider-one .owl-nav .owl-prev:hover, 
-        .slider-one .owl-nav .owl-next:hover {
-            background: #fff!important;
-            border-color: #fff!important;
-        }
-        .text-animated li:last-child a {
-            background: #313131!important;
-            border-color: #313131!important;
-        }
-        .blog-author li.blog-button a,
-        .blog-author li.blog-button i,
-        .footer-item ul.footer-social li a:hover,
-        .contact-item:hover .contact-icon {
-            color: #fff!important;
-        }
-        .feature-item:hover .feature-icon i,
-        .faq-header button.faq-button.collapsed {
-            background: #fff!important;
-        }
-        .team-carousel .owl-nav .owl-prev:hover, 
-        .team-carousel .owl-nav .owl-next:hover,
-        .blog-carousel .owl-nav .owl-prev:hover, 
-        .blog-carousel .owl-nav .owl-next:hover,
-        .button-df a:hover,
-        .testimonial-carousel .owl-dots .owl-dot.active,
-        .blog-author li.blog-button a:hover,
-        .footer-item ul.footer-social li a:hover,
-        .team-detail-text ul li a:hover,
-        .form-button .btn:hover,
-        .project-carousel .owl-nav .owl-prev:hover, 
-        .project-carousel .owl-nav .owl-next:hover,
-        .contact-form .btn:hover {
-            background: #313131!important;
-        }
-        .footer-item ul.footer-social li a:hover,
-        .contact-form .btn:hover {
-            border-color: #313131!important;
-        }
-        .event-contact-item:hover,
-        .faq-body,
-        .feature-item:hover .feature-icon i, .faq-header button.faq-button.collapsed {
-            background: #f5f5f5!important;
-        }
+    ul.nav-menu li ul li:hover > a {
+        background: #f1f1f1!important;
+    }
 
-        .booking-form input:focus,
-        .booking-form textarea:focus {
-            border-color: #fff!important;
-        }
+    .text-animated li a:hover,
+    .text-animated li:last-child a:hover,
+    .slider-one .owl-nav .owl-prev:hover,
+    .slider-one .owl-nav .owl-next:hover {
+        background: #fff!important;
+        border-color: #fff!important;
+    }
 
-        .booking-form button[type="submit"] {
-            background: #313131!important;
-            color: #fff!important;
-        }
+    .text-animated li:last-child a {
+        background: #313131!important;
+        border-color: #313131!important;
+    }
 
-        .booking-form button[type="submit"]:hover {
-            background: #fff!important;
-            color: #313131!important;
-        }
-    </style>
+    .blog-author li.blog-button a,
+    .blog-author li.blog-button i,
+    .footer-item ul.footer-social li a:hover,
+    .contact-item:hover .contact-icon {
+        color: #fff!important;
+    }
+
+    .feature-item:hover .feature-icon i,
+    .faq-header button.faq-button.collapsed {
+        background: #fff!important;
+    }
+
+    .team-carousel .owl-nav .owl-prev:hover,
+    .team-carousel .owl-nav .owl-next:hover,
+    .blog-carousel .owl-nav .owl-prev:hover,
+    .blog-carousel .owl-nav .owl-next:hover,
+    .button-df a:hover,
+    .testimonial-carousel .owl-dots .owl-dot.active,
+    .blog-author li.blog-button a:hover,
+    .footer-item ul.footer-social li a:hover,
+    .team-detail-text ul li a:hover,
+    .form-button .btn:hover,
+    .project-carousel .owl-nav .owl-prev:hover,
+    .project-carousel .owl-nav .owl-next:hover,
+    .contact-form .btn:hover {
+        background: #313131!important;
+    }
+
+    .footer-item ul.footer-social li a:hover,
+    .contact-form .btn:hover {
+        border-color: #313131!important;
+    }
+
+    .event-contact-item:hover,
+    .faq-body,
+    .feature-item:hover .feature-icon i,
+    .faq-header button.faq-button.collapsed {
+        background: #f5f5f5!important;
+    }
+
+    .booking-form input:focus,
+    .booking-form textarea:focus {
+        border-color: #fff!important;
+    }
+
+    .booking-form button[type="submit"] {
+        background: #313131!important;
+        color: #fff!important;
+    }
+
+    .booking-form button[type="submit"]:hover {
+        background: #fff!important;
+        color: #313131!important;
+    }
+
+    /* Dropdown Menu Fixes */
+    .menu-item-has-children {
+        position: relative;
+        background: transparent; /* Ensure parent has no white background */
+    }
+
+    /* Style for the main menu to set a consistent background */
+    .nav-menu {
+        background: #<?php echo $setting['front_end_color']; ?>; /* Match your theme color */
+        padding: 0; /* Remove any default padding */
+        margin: 0; /* Remove any default margin */
+    }
+
+    /* Style for the first-level dropdown */
+    .nav-menu .menu-item-has-children > ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 200px; /* Minimum width for the dropdown */
+        background: #fff;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 0; /* Remove default padding to eliminate top/bottom space */
+        display: none; /* Hidden by default */
+        z-index: 1000; /* Ensure dropdown is above other elements */
+        margin: 0; /* Remove any default margin */
+    }
+
+    /* Show dropdown on hover */
+    .nav-menu .menu-item-has-children:hover > ul {
+        display: block;
+    }
+
+    /* Style for nested (child) dropdowns */
+    .nav-menu .menu-item-has-children ul .menu-item-has-children > ul {
+        position: absolute;
+        top: 0; /* Align with the top of the parent item */
+        left: 100%; /* Position to the right of the parent */
+        min-width: 200px; /* Minimum width for nested dropdowns */
+        background: #fff;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 0; /* Remove default padding */
+        display: none; /* Hidden by default */
+        margin: 0; /* Remove any default margin */
+        margin-left: -1px; /* Align edges to remove gap */
+        z-index: 1000; /* Ensure nested dropdown is above other elements */
+    }
+
+    /* Show nested dropdown on hover */
+    .nav-menu .menu-item-has-children ul .menu-item-has-children:hover > ul {
+        display: block;
+    }
+
+    /* Increase width of specific dropdowns (e.g., Digital, Web App, etc.) */
+    .nav-menu .menu-item-has-children ul li {
+        width: 250px; /* Increase width as needed */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+        background: transparent; /* Ensure no white background on li */
+    }
+
+    /* Ensure scrollable submenu works with the new width and removes white space */
+    .scrollable-submenu {
+        max-height: 240px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 0; /* Remove padding to eliminate white space */
+        width: 100%; /* Ensure it takes the full width of the parent */
+    }
+
+    /* Style for menu items inside dropdowns */
+    .nav-menu ul ul a {
+        padding: 10px 15px; /* Consistent padding for content */
+        display: block;
+        color: #333;
+        text-decoration: none;
+        margin: 0; /* Remove any default margin */
+    }
+
+    .nav-menu ul ul a:hover {
+        background: #f5f5f5;
+        color: #007bff; /* Or your theme color */
+    }
+
+    /* Remove any residual white space from list items */
+    .nav-menu ul ul li {
+        margin: 0;
+        padding: 0;
+        list-style: none; /* Ensure no bullets or default styling */
+    }
+
+    /* Ensure the parent menu item background matches the dropdown when hovered */
+    .nav-menu .menu-item-has-children:hover {
+        background: #fff; /* Match the dropdown background on hover */
+    }
+</style>
 
 </head>
 
