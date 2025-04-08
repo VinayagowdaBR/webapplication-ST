@@ -20,6 +20,8 @@ $success_message = '';
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+    
     <!-- - - - -->
     <!-- Favicon -->
     <link rel="icon" type="image/ico" sizes="32x32" href="<?php echo base_url(); ?>assets/images/logos/st_LOGO.ico">
