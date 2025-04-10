@@ -76,15 +76,15 @@
                                 <!-- <i class="fas fa-angle-right"></i> -->
                             </li>
                             <li>
-                                <a href="<?php echo base_url(); ?>home/search_engine_optimization">SEO Services</a>
+                                <a href="<?php echo base_url(); ?>service/digital/consulting">SEO Services</a>
                                 <!-- <i class="fas fa-angle-right"></i> -->
                             </li>
                             <li>
-                                <a href="<?php echo base_url(); ?>home/static_website_design_and_development">Static Websites</a>
+                                <a href="<?php echo base_url(); ?>service/website/static">Static Websites</a>
                                 <!-- <i class="fas fa-angle-right"></i> -->
                             </li>
                             <li>
-                                <a href="<?php echo base_url(); ?>home/android_app_development">Android App Development</a>
+                                <a href="<?php echo base_url(); ?>service/mobile/android">Android App Development</a>
                                 <!-- <i class="fas fa-angle-right"></i> -->
                             </li>
                             <!--<li>
@@ -92,15 +92,15 @@
                                  <i class="fas fa-angle-right"></i>
                             </li> -->
                             <li>
-                                <a href="<?php echo base_url(); ?>home/ecommerce_website_design">E-Commerce Website Development</a>
+                                <a href="<?php echo base_url(); ?>service/ecom/development">E-Commerce Website Development</a>
                                 <!-- <i class="fas fa-angle-right"></i> -->
                             </li>
                             <li>
-                                <a href="<?php echo base_url(); ?>home/ios_app_development">IOS App Development</a>
+                                <a href="<?php echo base_url(); ?>service/mobile/ios">IOS App Development</a>
                                 <!-- <i class="fas fa-angle-right"></i> -->
                             </li>
                             <li>
-                                <a href="<?php echo base_url(); ?>home/hybrid_app_development">Hybrid App Development</a>
+                                <a href="<?php echo base_url(); ?>service/mobile/hybrid">Hybrid App Development</a>
                                 <!-- <i class="fas fa-angle-right"></i> -->
                             </li>
                         </ul>
