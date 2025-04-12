@@ -723,9 +723,17 @@ $success_message = '';
                                     <?php endif; ?>
 
                                     <?php if($arr_menu[8] == 'Show'): ?>
-                                    <li><a href="<?php echo base_url(); ?>pricing"><?php echo PRICING_TABLE; ?></a></li>
-                                    <?php endif; ?>
+<li class="menu-item-has-children">
+    <a href="<?php echo base_url(); ?>pricing"><?php echo PRICING_TABLE; ?></a>
+    <ul>
+        <li><a href="<?php echo base_url(); ?>pricing/web-app">Web App</a></li>
+        <li><a href="<?php echo base_url(); ?>pricing/android">Android</a></li>
+        <li><a href="<?php echo base_url(); ?>pricing/website">Website</a></li>
+    </ul>
+</li>
+<?php endif; ?>
 
+                                    
                                     <?php if($d_page == 1): ?>
                                         <?php
                                         foreach($all_dynamic_pages as $rrr)

@@ -61,3 +61,6 @@ $route['admin'] = 'admin/login';
 $route['service/(:any)/(:any)'] = 'service/index/$1/$2';
 $route['service/(:any)'] = 'service/index/$1/digital'; // Default sub-service
 $route['service'] = 'service/index/digital/digital'; // Default both params
+$route['pricing/web-app'] = 'pricing/web_app';
+$route['pricing/android'] = 'pricing/android';
+$route['pricing/website'] = 'pricing/website';
